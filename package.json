@@ -1,7 +1,8 @@
 {
   "name": "oh_my_wedding",
   "private": true,
-  "version": "0.0.0",
+  "homepage": "https://tivogliotantobeneyuli.com",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",

@@ -11,7 +11,8 @@ module.exports = {
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
-        regasto: ["Regasto", "sans-serif"]
+        regasto: ["Regasto", "sans-serif"],
+        rosmatika: ["Rosmatika", "serif"]
       },
     },
     screens: {
