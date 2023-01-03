@@ -5,14 +5,17 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#DDA46F",
-        secondary: "#708573",
+        primary: "#8D8741",
+        secondary: "#659DBD",
+        third: "#DAAD86",
+        fourth: "#BC986A",
+        light: "#fbeec1",
         dimWhite: "rgba(255, 255, 255, 0.7)",
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
-        regasto: ["Regasto", "sans-serif"],
-        rosmatika: ["Rosmatika", "serif"]
+        punk: ["Punk Typewriter", "serif"],
+        night: ["Through the night", "serif"],
       },
     },
     screens: {

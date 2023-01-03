@@ -1,0 +1,21 @@
+{
+    "short_name": "tvtby",
+    "name": "ti voglio tanto bene yuli",
+    "icons": [
+      {
+        "src": "tvtbyficon-pwa.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "any maskable"
+      }, 
+      {
+        "src": "tvtbyficon-pwa-192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#8D8741",
+    "background_color": "#fbeec1"
+  }
