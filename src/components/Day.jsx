@@ -1,6 +1,6 @@
 import styles from "../style";
 
-const Day = ({ name, day, title, paragraphs, images, bgColor }) => {
+const Day = ({ name, day, title, paragraphs, images, bgColor, reverse }) => {
 
     return (
         <div className={`${bgColor} ${styles.flexStart} z-0`}>
@@ -12,7 +12,7 @@ const Day = ({ name, day, title, paragraphs, images, bgColor }) => {
                             <mark className="bg-primary text-light rounded">{day}</mark>
                         </p>
                     </div>
-                    <div className={`${name === "prox" ? "hidden" : ""} flex md:flex-row flex-col mt-8`}>
+                    <div className={`${name === "prox" ? "hidden" : ""} ${reverse ? "md:flex-row-reverse" : "md:flex-row"} flex flex-col mt-8`}>
                         <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
                             <div className="flex flex-row justify-between items-center w-full">
                                 <h1 className="flex-1 font-punk font-normal ss:text-[80px] text-[60px] text-light ss:leading-[55px] leading-[40px] mb-5">
@@ -53,7 +53,7 @@ const Day = ({ name, day, title, paragraphs, images, bgColor }) => {
                                 <img src={image} className={`w-full h-auto sm:py-16 py-6 ${image ? "" : "hidden"}`} />
                             )) : ""
                             }
-                            <p className={`${styles.paragraph} text-light font-night font-extralight ss:text-[24px] text-[18px] mt-5`}>
+                            <p className={`${styles.paragraph} text-light font-night font-extralight ss:text-[24px] text-[18px] mt-5 ${name === "today" ? "" : "hidden"}`}>
                                 {"Vuelve mañana, "} <mark className="bg-primary text-light rounded">{"ti voglio tanto bene, Yuli."}</mark>
                             </p>
                         </div>
